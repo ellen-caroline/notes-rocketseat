@@ -5,7 +5,7 @@ import { NoteCard } from './components/note-card';
 
 interface Note {
   id: string
-  data: Date
+  date: Date
   content: string
 }
 
@@ -25,7 +25,7 @@ export function App() {
     const newNote = {
       // gera um id único e universal para cada nota
       id: crypto.randomUUID(),
-      data: new Date(),
+      date: new Date(),
       content,
     }
 
