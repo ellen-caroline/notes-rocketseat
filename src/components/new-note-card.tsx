@@ -3,9 +3,14 @@ import { X } from 'lucide-react'
 import { ChangeEvent, FormEvent, useState } from 'react'
 import { toast } from 'sonner'
 
-export function NewNoteCard() {
+interface NewNoteCardProps {
+  onNoteCreated: (content: string) => void
+}
+
+export function NewNoteCard({ onNoteCreated }: NewNoteCardProps) {
   const [shouldShowOnboarding, setShouldShowOnboarding] = useState(true)
   const [content, setContent] = useState('')
+  const [isDialogOpen, setIsDialogOpen] = useState(false);
 
   function handleStartEditor() {
     setShouldShowOnboarding(false)
@@ -21,12 +26,15 @@ export function NewNoteCard() {
 
   function handleSaveNote(event: FormEvent) {
     event.preventDefault()
+    onNoteCreated(content)
+    setContent('')
     toast.success("Nota criada com sucesso!")
+    setIsDialogOpen(false);
   }
 
   return (
-    <Dialog.Root>
-      <Dialog.Trigger className="rounded-md flex flex-col bg-zinc-700 text-left p-5 gap-3 outline-none hover:ring-2 hover:ring-zinc-600 focus-visible:ring-2 focus-visible:ring-l1lac">
+    <Dialog.Root open={isDialogOpen}>
+      <Dialog.Trigger onClick={() => setIsDialogOpen(true)} className="rounded-md flex flex-col bg-zinc-700 text-left p-5 gap-3 outline-none hover:ring-2 hover:ring-zinc-600 focus-visible:ring-2 focus-visible:ring-l1lac">
         <span className="text-sm font-medium text-zinc-200">
           Adicionar nota
         </span>
@@ -56,6 +64,7 @@ export function NewNoteCard() {
                     autoFocus 
                     className="text-sm leading-6 text-zinc-400 bg-transparent resize-none flex-1 outline-none"
                     onChange={handleContentChanged}
+                    value={content}
                   />
                 )} 
             </div>
