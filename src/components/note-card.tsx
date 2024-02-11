@@ -1,8 +1,8 @@
-export function Notecard() {
+export function NoteCard() {
   return (
     <button className="rounded-md text-left bg-zinc-800 p-5 space-y-3 overflow-hidden relative outline-none hover:ring-2 hover:ring-zinc-600 focus-visible:ring-2 focus-visible:ring-l1lac">
       <span className="text-sm font-medium text-zinc-300">
-        Há 2   dias
+        Há 2 dias
        </span>
       <p className="text-sm leading-6 text-zinc-400">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores placeat deserunt tenetur non, neque amet dicta! Facere est voluptate nobis a rem error expedita, nesciunt deleniti eveniet quod repellat corrupti!

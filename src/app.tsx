@@ -1,6 +1,6 @@
 import logo from './assets/logo-notes.svg';
 import { NewNoteCard } from './components/new-note-card';
-import { Notecard } from './components/note-card';
+import { NoteCard } from './components/note-card';
 
 function App() {
   return (
@@ -19,9 +19,9 @@ function App() {
 
       <div className="grid grid-cols-3 gap-6 auto-rows-[250px]">
         <NewNoteCard />
-        <Notecard />
-        <Notecard />
-        <Notecard />
+        <NoteCard />
+        <NoteCard />
+        <NoteCard />
       </div>
     </div>
   )
