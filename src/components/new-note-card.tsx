@@ -13,6 +13,7 @@ export function NewNoteCard({ onNoteCreated }: NewNoteCardProps) {
   const [shouldShowOnboarding, setShouldShowOnboarding] = useState(true)
   const [isRecording, setIsRecording] = useState(false)
   const [content, setContent] = useState('')
+  const [isDialogOpen, setIsDialogOpen] = useState(false);
 
   function handleStartEditor() {
     setShouldShowOnboarding(false)
@@ -36,6 +37,8 @@ export function NewNoteCard({ onNoteCreated }: NewNoteCardProps) {
     onNoteCreated(content)
     setContent('')
     toast.success("Nota criada com sucesso!")
+
+    setIsDialogOpen(false);
   }
 
   function handleStartRecording() {
@@ -81,7 +84,7 @@ export function NewNoteCard({ onNoteCreated }: NewNoteCardProps) {
   }
 
   return (
-    <Dialog.Root>
+    <Dialog.Root open={isDialogOpen} onOpenChange={(open) => setIsDialogOpen(open)}>
       <Dialog.Trigger className="rounded-md flex flex-col bg-zinc-700 text-left p-5 gap-3 outline-none hover:ring-2 hover:ring-zinc-600 focus-visible:ring-2 focus-visible:ring-l1lac">
         <span className="text-sm font-medium text-zinc-200">
           Adicionar nota
