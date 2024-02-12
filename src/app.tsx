@@ -1,7 +1,8 @@
-import { ChangeEvent, useState } from 'react';
-import logo from './assets/logo-notes.svg';
-import { NewNoteCard } from './components/new-note-card';
-import { NoteCard } from './components/note-card';
+import { ChangeEvent, useState } from 'react'
+// import logo from './assets/logo-notes-white.png'
+import notesLogo from  './assets/logo-notes-white.png'
+import { NewNoteCard } from './components/new-note-card'
+import { NoteCard } from './components/note-card'
 
 interface Note {
   id: string
@@ -58,7 +59,7 @@ export function App() {
 
   return (
     <div className="mx-auto max-w-6xl my-12 space-y-6 px-5">
-      <img src={ logo } alt="Notes" width={ 100 } />
+      <img src={ notesLogo } alt="Notes" width={ 160 } />
 
       <form className="w-full">
         <input 
