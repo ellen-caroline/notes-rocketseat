@@ -14,7 +14,7 @@ Esse projeto foi desenvolvido durante a <a href="https://app.rocketseat.com.br/e
 - Speech Recognition API
 
 ## 🔍 Visualização do projeto 
-- Visualize o projeto no <strong>Vercel</strong> clicando na imagem:
+- Visualize o projeto no <strong><a href="https://notes-eta-two.vercel.app" target="_blank">Vercel</a></strong>!
 <br>
 
 <img src="./src/assets/mockup.png" width="520px" style="display: block; margin: auto" href="https://notes-eta-two.vercel.app" target="_blank" alt="mockup do note no computador. O fundo é um escritório amarelo e o computador é branco." />
