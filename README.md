@@ -4,7 +4,7 @@
 
 Notes🐇 é uma aplicação simples e intuitiva para adicionar e gerenciar notas de maneira eficiente. Com suporte para entrada de texto e gravação de áudio, oferece uma experiência versátil para atender às suas necessidades.
 
-Esse projeto foi desenvolvido durante a <a href="https://app.rocketseat.com.br/events/nlw-expert/" style="color: #BB86FC;">NLW Expert</a>, disponibilizada pela <a href="https://www.rocketseat.com.br/" style="color: #BB86FC;">Rocketseat</a>.
+Esse projeto foi desenvolvido durante a <a href="https://app.rocketseat.com.br/events/nlw-expert/" style="color: #BB86FC;" target="_blank">NLW Expert</a>, disponibilizada pela <a href="https://www.rocketseat.com.br/" style="color: #BB86FC;" target="_blank">Rocketseat</a>.
 
 ## 💻 Tecnologias
 - React
@@ -17,7 +17,7 @@ Esse projeto foi desenvolvido durante a <a href="https://app.rocketseat.com.br/e
 - Visualize o projeto no <strong>Vercel</strong> clicando na imagem:
 <br>
 
-<img src="./src/assets/mockup.png" width="520px" style="display: block; margin: auto" href="https://notes-eta-two.vercel.app" />
+<img src="./src/assets/mockup.png" width="520px" style="display: block; margin: auto" href="https://notes-eta-two.vercel.app" target="_blank" alt="mockup do note no computador. O fundo é um escritório amarelo e o computador é branco." />
 
 <br>
 
@@ -42,14 +42,14 @@ npm run dev
 ````
 
 - Abra o navegador e visite <a href="http://localhost:5173" style="color: #BB86FC;">http://localhost:5173</a> para ver o aplicativo em ação! 
-<img src='./src/assets/cute bunny.gif' style="width: 20px" />
+<img src='./src/assets/cute bunny.gif' style="width: 20px" alt="coelho feliz" />
 
 ## 🌷 Links úteis
-- <a href="https://tailwindcss.com/docs/installation" style="color: #BB86FC;">Tailwind CSS</a>
-- <a href="https://www.radix-ui.com" style="color: #BB86FC;">RadixUI</a>
-- <a href="https://date-fns.org" style="color: #BB86FC;">Date FNS</a>
-- <a href="https://lucide.dev/guide/installation" style="color: #BB86FC;">Lucide React</a>
-- <a href="https://developer.mozilla.org/en-US/docs/Web/API/SpeechRecognition" style="color: #BB86FC;">Speech Recognition API</a>
+- <a href="https://tailwindcss.com/docs/installation" style="color: #BB86FC;" target="_blank" >Tailwind CSS</a>
+- <a href="https://www.radix-ui.com" style="color: #BB86FC;" target="_blank" >RadixUI</a>
+- <a href="https://date-fns.org" style="color: #BB86FC;" target="_blank" >Date FNS</a>
+- <a href="https://lucide.dev/guide/installation" style="color: #BB86FC;" target="_blank" >Lucide React</a>
+- <a href="https://developer.mozilla.org/en-US/docs/Web/API/SpeechRecognition" style="color: #BB86FC;" target="_blank">Speech Recognition API</a>
 
 <br>
 
