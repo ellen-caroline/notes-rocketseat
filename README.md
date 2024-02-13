@@ -17,11 +17,11 @@ Esse projeto foi desenvolvido durante a <a href="https://app.rocketseat.com.br/e
 - Visualize o projeto no <strong>Vercel</strong> clicando na imagem:
 <br>
 
-<img src="./src/assets/mockup.png" width="520px" style="display: block; margin: auto" href="" />
+<img src="./src/assets/mockup.png" width="520px" style="display: block; margin: auto" href="https://notes-eta-two.vercel.app" />
 
 <br>
 
-<h4 style="text-align: center; color: #BB86FC">ou</h4>
+<strong><p style="text-align: center; color: #BB86FC">ou</p></strong>
 
 <br>
 
