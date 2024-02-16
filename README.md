@@ -1,4 +1,4 @@
-<img width=100% alt="blue_waves_head" src="https://capsule-render.vercel.app/api?type=waving&color=BB86FC&height=280&section=header&text=&fontSize=96&animation=fadeIn&fontAlignY=30&desc=NVL%20Rocketseat&descAlignY=58&descAlign=56"/>
+<img width=100% alt="blue_waves_head" src="https://capsule-render.vercel.app/api?type=waving&color=BB86FC&height=140&section=header&text=&fontSize=96&animation=fadeIn&fontAlignY=30&desc=&descAlignY=58&descAlign=56"/>
 
 <img src="./src/assets/logo-notes-white.png" style="width: 200px; position: absolute; top: 40px; left: 50%; transform: translateX(-50%); z-index: 1;" />
 
@@ -14,7 +14,7 @@ Esse projeto foi desenvolvido durante a <a href="https://app.rocketseat.com.br/e
 - Speech Recognition API
 
 ## 🔍 Visualização do projeto 
-- Visualize o projeto no <strong><a href="https://notes-eta-two.vercel.app" target="_blank">Vercel</a></strong>!
+- Visualize o projeto no <strong><a href="https://notes-eta-two.vercel.app" target="_blank" style="color: #BB86FC">Vercel</a></strong>!
 <br>
 
 <img src="./src/assets/mockup.png" width="520px" style="display: block; margin: auto" href="https://notes-eta-two.vercel.app" target="_blank" alt="mockup do note no computador. O fundo é um escritório amarelo e o computador é branco." />
@@ -55,4 +55,4 @@ npm run dev
 
 <p style="text-align: center">🌷🌷🌷🌷</p>
 
-<img width=100% alt="blue_waves_end" src="https://capsule-render.vercel.app/api?type=waving&color=BB86FC&height=140&section=footer"/>
+<img width=100% alt="blue_waves_end" src="https://capsule-render.vercel.app/api?type=waving&color=BB86FC&height=120&section=footer"/>
